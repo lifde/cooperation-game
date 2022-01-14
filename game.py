@@ -6,6 +6,7 @@ from players.player_4 import Player as player_4
 from players.player_5 import Player as player_5
 from players.player_6 import Player as player_6
 from players.player_7 import Player as player_7
+from players.player_8 import Player as player_8
 
 from defs import Turn, Action
 
@@ -17,7 +18,8 @@ players: list = [
   player_4,
   player_5,
   player_6,
-  player_7
+  player_7,
+  player_8
 ]
 
 fights_done = []
